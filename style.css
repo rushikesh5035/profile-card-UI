@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(white.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main {
+  width: 400px;
+  background: white;
+  border-radius: 11px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  box-shadow: 2px 2px 10px rgb(185, 181, 181);
+}
+
+.main .background {
+  width: 400px;
+  height: 130px;
+  background: rgb(61, 92, 125);
+  /* background: #088395; */
+  border-radius: 10px 10px 0 0;
+}
+
+.main .pic {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: url(profile-pic.png);
+  border-radius: 50%;
+  border: 4px solid rgb(75, 115, 158);
+  box-shadow: 2px 2px 8px rgba(13, 81, 154, 0.2);
+  left: 125px;
+  bottom: 75px;
+  background-size: cover;
+}
+
+.main .info h2 {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  bottom: 60px;
+  color: rgb(37, 58, 81);
+}
+
+.main .info p {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  bottom: 60px;
+  color: rgb(37, 58, 81);
+  font-weight: 600;
+}
+
+.main .info .social-media {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.main .info .social-media i {
+  padding: 0 5px;
+  font-size: 25px;
+  color: rgb(61, 92, 125);
+  opacity: 0.9;
+}
+
+.main .info .social-media i:hover {
+  font-size: 30px;
+  opacity: 1;
+}
+
+.main .info .btn {
+  display: flex;
+  justify-content: center;
+}
+.main .info .btn button {
+  background-color: rgb(61, 92, 125);
+  color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px;
+  position: relative;
+  bottom: 25px;
+}
+.main .info .btn button:hover {
+  box-shadow: 0px 4px 10px rgba(8, 80, 151, 0.5);
+  font-weight: 600;
+}
+
+.main .info .footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 22px;
+  position: relative;
+  bottom: 10px;
+}
+.main .info .footer i {
+  color: rgb(61, 92, 125);
+}
+
+.main .info .footer i:hover {
+  font-size: 30px;
+  color: rgb(61, 92, 125);
+}
